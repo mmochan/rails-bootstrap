@@ -1,0 +1,2 @@
+class ServicetiersController < ApplicationController
+end

@@ -1,0 +1,31 @@
+<h1>WebServer</h1>
+
+<table class="table table-striped table-hover table-bordered">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Link</th>
+      <th>Description</th>
+      <th>Service Tier</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+<% @webtiers.each do |webtier| %>
+  <tbody>
+    <tr>
+      <td><%= webtier.name %></td>
+      <td><%= webtier.link %></td>
+      <td><%= webtier.description %></td>
+      <% webtier.servicetiers.each do |servicetier| %>
+        <td><%= servicetier.name %></td>
+      <% end %>
+      <td><%= link_to 'Show', webtier %></td>
+      <td><%= link_to 'Edit', edit_webtier_path(webtier) %></td>
+      <td><%= link_to 'Destroy', webtier, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  </tbody>
+<% end %>
+</table>
+
+<%= link_to 'New WebServer', new_webtier_path, :class => "btn btn-primary"%>

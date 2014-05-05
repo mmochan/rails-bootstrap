@@ -1,3 +1,238 @@
 <% content_for :title do %>About<% end %>
-<h3>About the Website</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<div>
+    <div>
+        <section id="widget-grid" class="">
+        
+            <!-- row -->
+            <div class="row">
+        
+                <!-- NEW WIDGET START -->
+                <article class="col-sm-12 col-md-12 col-lg-6">
+        
+                    <!-- Widget ID (each widget will need unique ID)-->
+                    <div class="jarviswidget jarviswidget-color-orange" id="wid-id-0" data-widget-editbutton="false">
+                        <!-- widget options:
+                        usage: <div class="jarviswidget" id="wid-id-0" data-widget-editbutton="false">
+        
+                        data-widget-colorbutton="false"
+                        data-widget-editbutton="false"
+                        data-widget-togglebutton="false"
+                        data-widget-deletebutton="false"
+                        data-widget-fullscreenbutton="false"
+                        data-widget-custombutton="false"
+                        data-widget-collapsed="true"
+                        data-widget-sortable="false"
+        
+                        -->
+                        <header>
+                            <span class="widget-icon"> <i class="fa fa-lg fa-calendar"></i> </span>
+                            <h2>Project view </h2>
+        
+                        </header>
+        
+                        <!-- widget div-->
+                        <div>
+        
+                            <!-- widget edit box -->
+                            <div class="jarviswidget-editbox">
+                                <!-- This area used as dropdown edit box -->
+        
+                            </div>
+                            <!-- end widget edit box -->
+        
+                            <!-- widget content -->
+                            <div class="widget-body">
+        
+                                <div class="widget-body-toolbar bg-color-white">
+        
+                                    <form class="form-inline" role="form">
+        
+                                        <div class="row">
+        
+                                            <div class="col-sm-12 col-md-10">
+        
+                                                <div class="form-group">
+                                                    <label class="sr-only">Projects</label>
+                                                    <input type="email" class="form-control input-sm" placeholder="My Task">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only">Pick a Project</label>
+                                                    <select class="form-control input-sm">
+                                                        <option>PD Online</option>
+                                                        <option>SDE Stabalization</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only">Days</label>
+                                                    <select class="form-control input-sm">
+                                                        <option>WebServices</option>
+                                                        <option>Databases</option>
+                                                        <option>Applications</option>
+                                                    </select>
+                                                </div>
+        
+                                            </div>
+        
+                                            <div class="col-sm-12 col-md-2 text-align-right">
+        
+                                                <button type="submit" class="btn btn-warning btn-xs">
+                                                    <i class="fa fa-plus"></i> Add
+                                                </button>
+        
+                                            </div>
+        
+                                        </div>
+        
+                                    </form>
+        
+                                </div>
+        
+                                <div class="tree">
+                                    <ul>
+                                        <li>
+                                            <span><i class="fa fa-lg fa-calendar"></i> PD Online</span>
+                                            <ul>
+                                                <li>
+                                                    <span class="label label-success"><i class="fa fa-lg fa-plus-circle"></i> WebServer</span>
+                                                    <ul>
+                                                        <li>
+                                                            <span><i class="fa fa-clock-o"></i> c2k1885</span> &ndash; <a href="javascript:void(0);">Blah some link to server...</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <span class="label label-success"><i class="fa fa-lg fa-minus-circle"></i>Application Server</span>
+                                                    <ul>
+                                                        <li>
+                                                            <span><i class="fa fa-clock-o"></i> bl208</span> &ndash; <a href="javascript:void(0);">Property Search...</a>
+                                                        </li>
+                                                        <li>
+                                                            <span><i class="fa fa-clock-o"></i> bl208</span> &ndash; <a href="javascript:void(0);">Address lookup...</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <span class="label label-warning"><i class="fa fa-lg fa-minus-circle"></i> Database</span>
+                                                    <ul>
+                                                        <li>
+                                                            <span><i class="fa fa-clock-o"></i> x507</span> &ndash; <a href="javascript:void(0);">DB Connection String..</a>
+                                                        </li>
+                                                        <li>
+                                                            <span><i class="fa fa-clock-o"></i> x506</span> &ndash; <a href="javascript:void(0);">HA DB STring...</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <span class="label label-danger"><i class="fa fa-lg fa-minus-circle"></i> WebServices</span>
+                                                    <ul>
+                                                        <li>
+                                                            <span><i class="fa fa-clock-o"></i> Property Search</span> &ndash; <a href="javascript:void(0);">Link to EM Console...</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <span><i class="fa fa-clock-o"></i> Address Lookup</span> &ndash; <a href="javascript:void(0);">Link to EM Console...</a>
+                                                        </li>
+                                                    </ul>                                                    
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span><i class="fa fa-lg fa-calendar"></i> SDE Stabalization</span>
+                                            <ul>
+                                                <li>
+                                                    <span class="label label-success"><i class="fa fa-lg fa-minus-circle"></i> Application</span>
+                                                    <ul>
+                                                        <li>
+                                                            <span><i class="fa fa-clock-o"></i> sde-101</span> &ndash; <a href="javascript:void(0);">WebLogic Application Server...</a>
+                                                        </li>
+                                                        <li>
+                                                            <span><i class="fa fa-clock-o"></i> sde-102</span> &ndash; <a href="javascript:void(0);">OID LDAP Server...</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+        
+                            </div>
+                            <!-- end widget content -->
+        
+                        </div>
+                        <!-- end widget div -->
+        
+                    </div>
+                    <!-- end widget -->
+        
+                </article>
+                <!-- WIDGET END -->
+        
+                <!-- NEW WIDGET START -->
+                <article class="col-sm-12 col-md-12 col-lg-6">
+        
+                    <!-- Widget ID (each widget will need unique ID)-->
+                    <div class="jarviswidget jarviswidget-color-blue" id="wid-id-1" data-widget-editbutton="false">
+                        <!-- widget options:
+                        usage: <div class="jarviswidget" id="wid-id-0" data-widget-editbutton="false">
+        
+                        data-widget-colorbutton="false"
+                        data-widget-editbutton="false"
+                        data-widget-togglebutton="false"
+                        data-widget-deletebutton="false"
+                        data-widget-fullscreenbutton="false"
+                        data-widget-custombutton="false"
+                        data-widget-collapsed="true"
+                        data-widget-sortable="false"
+        
+                        -->
+
+        
+                    </div>
+                    <!-- end widget -->
+        
+                </article>
+                <!-- WIDGET END -->
+        
+            </div>
+        
+            <!-- end row -->
+        
+            <!-- row -->
+        
+            <div class="row">
+        
+            </div>
+        
+            <!-- end row -->
+        
+        </section>
+        <!-- end widget grid -->
+
+    </div>
+    <!-- END MAIN CONTENT -->
+
+</div>
+<!-- END MAIN PANEL -->
+
+<!-- JARVIS WIDGETS -->
+
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+    pageSetUp();
+    $('.tree > ul').attr('role', 'tree').find('ul').attr('role', 'group');
+    $('.tree').find('li:has(ul)').addClass('parent_li').attr('role', 'treeitem').find(' > span').attr('title', 'Collapse this branch').on('click', function(e) {
+        var children = $(this).parent('li.parent_li').find(' > ul > li');
+        if (children.is(':visible')) {
+            children.hide('fast');
+            $(this).attr('title', 'Expand this branch').find(' > i').removeClass().addClass('fa fa-lg fa-plus-circle');
+        } else {
+            children.show('fast');
+            $(this).attr('title', 'Collapse this branch').find(' > i').removeClass().addClass('fa fa-lg fa-minus-circle');
+        }
+        e.stopPropagation();
+    });         
+})
+</script>   

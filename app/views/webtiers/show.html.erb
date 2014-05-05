@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @webtier.name %>
+</p>
+<p>
+  <strong>Link:</strong>
+  <%= @webtier.link %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%= @webtier.description %>
+</p>
+
+<%= link_to 'Edit', edit_webtier_path(@webtier) %> |
+<%= link_to 'Back', webtiers_path %>
